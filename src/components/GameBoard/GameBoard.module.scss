@@ -1,0 +1,14 @@
+@import "../../styles/base";
+
+.GameBoard {
+  max-width: 100%;
+  overflow: auto;
+}
+
+.GameBoard__grid {
+  border: solid 1px $color-secondary;
+  background: $color-bg;
+  padding: 5px;
+  display: inline-grid;
+  gap: 5px;
+}

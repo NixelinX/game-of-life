@@ -1,0 +1,13 @@
+@import "../../styles/base";
+
+.Cell {
+  background: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.Cell_alive {
+  background: $color-secondary;
+}

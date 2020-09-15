@@ -1,0 +1,17 @@
+@import "../../styles/base";
+
+.Button {
+  background: $color-secondary;
+  color: $color-white-text;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 0;
+  outline: none;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}

@@ -1,0 +1,22 @@
+.ButtonsPanel {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.ButtonsPanel__header {
+  text-align: center;
+  margin: 15px 0 10px;
+}
+
+.ButtonsPanel__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonsPanel__button {
+  margin-right: 10px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
